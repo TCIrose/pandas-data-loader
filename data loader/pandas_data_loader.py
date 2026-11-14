@@ -5,7 +5,7 @@ from tkinter import filedialog
 import os
 import pandas as pd
 
-def create_file_picker():
+def load_data():
     """
     Creates and displayes files on jupyter notebookd using pandas, tkinter, and ipywidgets
     supports csv, xls, spss, json, parquet, and isv files
