@@ -72,6 +72,6 @@ def create_file_picker():
             else:
                 print("No files selected.")
 
-browse_button.on_click(on_browse_clicked)
+    browse_button.on_click(on_browse_clicked)
 
-display(widgets.VBox([browse_button, output_area]))
+    display(widgets.VBox([browse_button, output_area]))
